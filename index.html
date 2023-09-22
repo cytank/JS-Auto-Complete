@@ -12,12 +12,13 @@
         <link rel="shortcut icon" href="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" type="image/x-icon">
     <title>Auto-complete with js</title>
 </head>
-<body>
+<body autocomplete="false">
 
 <div class="container">
     <div class="row">
         <div class="col-12 col-md-6">
-            <input autocomplete="false" type="text" id="input">
+            <label for="text"> Search by name</label>
+            <input type="text" id="name">
         </div>
         <div class="col-12 col-md-6">
             <ul id="list">

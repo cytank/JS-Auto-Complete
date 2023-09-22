@@ -1,6 +1,7 @@
 import games from './data.json' assert {type: 'json'}
+let item = (item) => document.querySelector(item)
 
-document.querySelector('#input').addEventListener('input', (e) => {
+item('#name').addEventListener('input', (e) => {
     let games_array = []
 
     // Filter games by input
