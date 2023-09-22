@@ -1,0 +1,26 @@
+[
+    {
+        "name": "minecraft",
+        "company": "mojang",
+        "price": "29$",
+        "image": "minecraft.jpg"
+    },
+    {
+        "name": "red dead redemption 2",
+        "company": "rockstar games",
+        "price": "59$",
+        "image": "rdr2.jpg"
+    },
+    {
+        "name": "gta 5",
+        "company": "rockstar games",
+        "price": "40$",
+        "image": "gta5.jpg"
+    },
+    {
+        "name": "far cry",
+        "company": "ubisoft",
+        "price": "10$",
+        "image": "farcry.jpg"
+    }
+]
