@@ -12,17 +12,17 @@ item('#name').addEventListener('input', (e) => {
     });
     
     // Empty old list
-    document.querySelector('#list').innerHTML = ''
+    item('#list').innerHTML = ''
 
     // Rewrite new one to html
     if(e.target.value.length == 0){
         return
     } else{
         if(games_array.length == 0){
-            document.querySelector('#list').innerHTML = 'No games found'
+            item('#list').innerHTML = 'No games found'
         } else{
             games_array.forEach(game => {
-                document.querySelector('#list').innerHTML += `
+                item('#list').innerHTML += `
                 <li>${game.name}</li>
                 `
             })
