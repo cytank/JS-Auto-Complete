@@ -2,25 +2,64 @@
     {
         "name": "minecraft",
         "company": "mojang",
-        "price": "29$",
-        "image": "minecraft.jpg"
+        "cost": "29$",
+        "image": "https://th.bing.com/th/id/R.c3e60da90a813cc3e88d61c3225c383a?rik=Hw6mpqKPJ1JNag&pid=ImgRaw&r=0",
+        "info": "Minecraft is a media franchise developed from and centered around the video game of the same name. Primarily developed by Mojang Studios, the franchise consists of five video games, along with various books, merchandise, events, and an upcoming theatrical film. Microsoft acquired Mojang Studios in 2014, alongside the Minecraft franchise and its editions."
     },
     {
         "name": "red dead redemption 2",
         "company": "rockstar games",
-        "price": "59$",
-        "image": "rdr2.jpg"
+        "cost": "59$",
+        "image": "https://th.bing.com/th/id/OIP._diOvcnNd6MSD9bw--6EawHaEK?pid=ImgDet&rs=1",
+        "info": "Red Dead Redemption 2[a] is a 2018 action-adventure game developed and published by Rockstar Games. The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. The story is set in a fictionalized representation of the United States in 1899 and follows the exploits of Arthur Morgan, an outlaw and member of the Van der Linde gang, who must deal with the decline of the Wild West whilst attempting to survive against government forces, rival gangs, and other adversaries. "
     },
     {
         "name": "gta 5",
         "company": "rockstar games",
-        "price": "40$",
-        "image": "gta5.jpg"
+        "cost": "40$",
+        "image": "https://th.bing.com/th/id/OIP.mcI1BXN-JWJN3GIw9j4HbAHaES?pid=ImgDet&rs=1",
+        "info": "Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall. "
     },
     {
         "name": "far cry",
         "company": "ubisoft",
-        "price": "10$",
-        "image": "farcry.jpg"
+        "cost": "10$",
+        "image": "https://th.bing.com/th/id/R.c15fc7ce522020fac9282cbd7bcaef0f?rik=vAuu%2b6wN%2bLCFoA&pid=ImgRaw&r=0",
+        "info": "Far Cry is an anthology franchise of first-person shooter games, all of which have been published by Ubisoft. The first game, Far Cry, was developed by Crytek to premiere their CryEngine software, and released in March 2004."
+    },
+    {
+        "name": "metro 2033",
+        "company": "THQ",
+        "cost": "15$",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/0/07/Metro_2033_Game_Cover.jpg/220px-Metro_2033_Game_Cover.jpg",
+        "info": "Metro 2033 is a 2010 first-person shooter survival horror video game developed by 4A Games and published by THQ. The story is based on Dmitry Glukhovsky's novel of the same name, where survivors of a nuclear war have taken refuge in the Metro tunnels of Moscow. Players control Artyom, a man who must save his home station from the dangers lurking within the Metro. In the game, players encounter human and mutant enemies, who can be killed with a variety of firearms. Players must also wear a gas mask to explore areas covered in fallout radiation, both underground and on the surface."
+    },
+    {
+        "name": "god of war: ragnarok",
+        "company": "Sony",
+        "cost": "35$",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg/220px-God_of_War_Ragnar%C3%B6k_cover.jpg",
+        "info": "God of War Ragnarök is an action-adventure game developed by Santa Monica Studio and published by Sony Interactive Entertainment. It was released worldwide on November 9, 2022, for both the PlayStation 4 and PlayStation 5, marking the first cross-gen release in the God of War series. It is the ninth installment in the series, the ninth chronologically, and the sequel to 2018's God of War. Loosely based on Norse mythology, the game is set in ancient Scandinavia and features series protagonist, Kratos, and his now teenage son, Atreus. Concluding the Norse era of the series, the game covers Ragnarök, the eschatological event which is central to Norse mythology and was foretold to happen in the previous game after Kratos killed the Aesir god Baldur."
+    },
+    {
+        "name": "resident evil village",
+        "company": "",
+        "cost": "",
+        "image": "",
+        "info": ""
+    },
+    {
+        "name": "assasins creed",
+        "company": "Ubisoft",
+        "cost": "20$",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2a/Assassin%27s_Creed_Logo.svg/250px-Assassin%27s_Creed_Logo.svg.png",
+        "info": "Assassin's Creed is an open-world, action-adventure, and stealth game franchise published by Ubisoft and developed mainly by its studio Ubisoft Montreal using the game engine Anvil and its more advanced derivatives."
+    },
+    {
+        "name": "hitman III",
+        "company": "IO Interactive",
+        "cost": "32$",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Hitman_3_Packart.jpg/220px-Hitman_3_Packart.jpg",
+        "info": "Hitman 3 is a 2021 stealth game developed and published by IO Interactive. It is the eighth main installment in the Hitman video game series, the sequel to 2018's Hitman 2, and the third and final entry in the World of Assassination trilogy. Concluding the story arc started in 2016's Hitman, the game follows genetically engineered assassin Agent 47 and his allies as they hunt down the leaders of the secretive organization Providence, which controls global affairs and was partially responsible for 47's creation and upbringing. Like its two predecessors, the game is structured around six levels, five of which are large sandbox locations that players can freely explore to find opportunities to eliminate their targets. Each mission also presents challenges that players can complete to unlock new items."
     }
 ]

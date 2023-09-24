@@ -1,0 +1,14 @@
+$primary: #EEEEEE;
+$secondary: #3A98B9;
+$titlec: #333333;
+
+body{
+    background-color: $primary;
+    color: #4d4d4d;
+}
+
+.title{
+    color:$titlec;
+    font-weight: bolder;
+    font-size: 1.3em;
+}

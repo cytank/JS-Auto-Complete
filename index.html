@@ -14,15 +14,18 @@
 </head>
 <body autocomplete="false">
 
-<div class="container">
-    <div class="row">
-        <div class="col-12 col-md-6">
-            <label for="text"> Search by name</label>
-            <input type="text" id="name">
+<div class="container pt-4" style="z-index: 2;position:relative;">
+    <div class="row" style="row-gap: 20px;">
+        <div class="col-12 col-md-4">
+            <div class="filter-box">
+                <div class="title">Filter by</div>
+                <label for="name"> Search by name</label>
+                <input type="text" id="name" autocomplete="false">
+            </div>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-8">
             <ul id="list">
-
+               
             </ul>
         </div>
     </div>
@@ -33,5 +36,6 @@
 
     
 </body>
+<script src="js/components/html.js"></script>
 <script type="module" src="js/main.js"></script>
 </html>

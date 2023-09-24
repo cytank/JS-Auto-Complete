@@ -1,6 +1,9 @@
 import games from './data.json' assert {type: 'json'}
-let item = (item) => document.querySelector(item)
 
+let item = (item) => document.querySelector(item)
+let items = (item) => document.querySelectorAll(item)
+
+//? Auto-Complete
 item('#name').addEventListener('input', (e) => {
     let games_array = []
 
@@ -22,11 +25,23 @@ item('#name').addEventListener('input', (e) => {
             item('#list').innerHTML = 'No games found'
         } else{
             games_array.forEach(game => {
-                item('#list').innerHTML += `
-                <li>${game.name}</li>
-                `
+                item('#list').innerHTML += game_card(game)
             })
         }
     }
     
+    cards_flipping()
+})
+
+//? Flipping Card
+let cards_flipping = () => items('.game-card').forEach(card => {
+    card.addEventListener('focus', (e) => {
+        items('.game-card').forEach(item => {
+            item.classList.remove('focus')
+        })
+    
+        e.target.classList.add('focus')
+    })
+
+    card.addEventListener('blur', (e) => {e.target.classList.remove('focus')})
 })

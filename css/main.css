@@ -1,3 +1,14 @@
+body {
+  background-color: #EEEEEE;
+  color: #4d4d4d;
+}
+
+.title {
+  color: #333333;
+  font-weight: bolder;
+  font-size: 1.3em;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +17,108 @@
 
 body {
   min-height: 100vh;
+}
+
+.filter-box {
+  background: #3A98B9;
+  padding: 20px 10px;
+  border-radius: 5px;
+}
+
+#list {
+  display: flex;
+  flex-wrap: wrap;
+  background: #3A98B9;
+  padding: 10px 5px;
+}
+#list .game-card {
+  perspective: 1000px;
+  padding: 5px;
+}
+#list .game-card.focus .content {
+  transform: rotateY(180deg);
+}
+#list .game-card .content {
+  position: relative;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 5px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+#list .game-card .content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  background: #EEEEEE;
+  z-index: -1;
+  transition: 0.5s;
+}
+#list .game-card .content:hover::before {
+  inset: -5px;
+}
+#list .game-card .content:hover img {
+  transform: scale(1.5);
+  filter: brightness(0.6);
+}
+#list .game-card .content:hover .game-title {
+  opacity: 1 !important;
+}
+#list .game-card .content .front {
+  position: relative;
+  transition: 0.5s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+#list .game-card .content .front .image {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#list .game-card .content .front .image img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+#list .game-card .content .front .game-title {
+  position: absolute;
+  inset: 0;
+  padding: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.397);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  margin: 0 !important;
+  opacity: 0;
+  transition: 0.5s;
+  color: black;
+}
+#list .game-card .content .back {
+  position: absolute;
+  inset: 0;
+  padding: 10px 20px;
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  transform: rotateY(180deg);
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+#list .game-card .content .back::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  background: #EEEEEE;
+  z-index: -1;
+}
+#list .game-card .content .back .text {
+  overflow-y: scroll;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
