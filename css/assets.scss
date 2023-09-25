@@ -12,3 +12,17 @@ body{
     font-weight: bolder;
     font-size: 1.3em;
 }
+
+.pop-in-custom{animation: 1 .2s pop_in_custom;}
+
+@keyframes pop_in_custom{
+    0%{
+        transform: translateY(var(--pop-in));
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

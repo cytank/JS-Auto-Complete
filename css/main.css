@@ -27,6 +27,7 @@ body {
 
 #list {
   display: flex;
+  min-height: 250px;
   flex-wrap: wrap;
   background: #3A98B9;
   padding: 10px 5px;
